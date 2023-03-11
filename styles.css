@@ -2,7 +2,6 @@ body {
     background-color: #2A353E;
     background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-lousa-com-informacoes-de-quimica_23-2148160335.jpg);
     padding: 100px;
-    align-items: center;
 }
 .verde-texto {
     color: #257955;
@@ -18,19 +17,16 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
     font-family: 'Courier New', Courier, monospace;
 }
 h2 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
-}
-h1,h2{
-    text-align: center;
 }
 .propriedades {
     width: 80%;
