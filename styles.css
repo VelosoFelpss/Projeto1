@@ -2,12 +2,17 @@ body {
     background-color: #2A353E;
     background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-lousa-com-informacoes-de-quimica_23-2148160335.jpg);
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
 }
 .verde-texto {
     color: #257955;
 }
 .bege-texto {
-    color: #CE8D6C;
+    color: rgb(129, 93, 75);
 }
 .branco-texto {
     color: #CECECE;
@@ -18,7 +23,7 @@ body {
 
 h1 {
     font-size: 3.125rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Climate Crisis', cursive;
 }
 h2 {
     font-size: 1.5625rem;
@@ -29,9 +34,33 @@ h2 {
     margin-bottom: 30px;
 }
 .propriedades {
-    width: 80%;
+    width: 85vw;
     background-color: rgb(255, 255, 255);
-
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
 } 
 
-/* FOOTER */
+.foto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto img {
+        width: 100%;
+        height: auto;
+}
+
+/* Mobile */
+@media (max-width:390px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+    h2 {
+        font-size: 1.125rem;
+    }
+}
