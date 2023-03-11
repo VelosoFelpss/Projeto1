@@ -29,6 +29,9 @@ h2 {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+h1,h2{
+    text-align: center;
+}
 .propriedades {
     width: 80%;
     background-color: rgb(255, 255, 255);
