@@ -14,7 +14,7 @@ body {
 }
 
 .bege-texto {
-    color: rgb(129, 93, 75);
+    color: #815d4b;
 }
 
 .branco-texto {
@@ -45,7 +45,7 @@ h3 {
 }
 
 .propriedades {
-    width: 85vw;
+    width: 90vw;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -67,38 +67,44 @@ h3 {
     border-radius: 36px;
 }
 
-th,
-td,
-table {
+th, td, table {
     border: 1px solid #000;
     border-collapse: collapse;
-    padding: 10px 15px;
+    padding: 13px 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8125rem;
 }
 
 table {
-    border: 3px groove red;
+    border: 3px groove rgb(57, 161, 83);
 }
 
 form {
     margin-top: 6px;
-    background-color: #C9C55C;
+    background-color: #2d9464;
     text-align: center;
     border-radius: 10%;
     padding: 0 15px;
-    font-family: 'Source Code Pro';
-    color: #2a274f;
+    font-family: 'Source Code Pro', monospace, serif;
+    color: #080000;
 }
 
 form input {
     margin: 9px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 
 /* Mobile */
   @media (max-width: 390px) {
     h1 {
     font-size: 1.625rem;
   }
-}
     h2 {
         font-size: 1.125rem;
     }
+    table {
+        max-width: 300px;
+        max-height: 300px;
+        }
+  }
