@@ -8,15 +8,19 @@ body {
     align-content: center;
     align-items: center;
 }
+
 .verde-texto {
     color: #257955;
 }
+
 .bege-texto {
     color: rgb(129, 93, 75);
 }
+
 .branco-texto {
     color: #CECECE;
 }
+
 .roxo-texto {
     color: #7C4899;
 }
@@ -25,14 +29,21 @@ h1 {
     font-size: 3.125rem;
     font-family: 'Climate Crisis', cursive;
 }
+
 h2 {
     font-size: 1.5625rem;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 19px;
 }
+
+h3 {
+    font-size: 1.5625rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
 .propriedades {
     width: 85vw;
     background-color: rgb(255, 255, 255);
@@ -42,7 +53,7 @@ h2 {
     justify-content: space-around;
     align-content: stretch;
     align-items: center;
-} 
+}
 
 .foto {
     display: flex;
@@ -51,8 +62,35 @@ h2 {
 }
 
 .foto img {
-        width: 100%;
-        height: auto;
+    width: 328px;
+    height: 173px;
+    border-radius: 36px;
+}
+
+th,
+td,
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px 15px;
+}
+
+table {
+    border: 3px groove red;
+}
+
+form {
+    margin-top: 6px;
+    background-color: #C9C55C;
+    text-align: center;
+    border-radius: 10%;
+    padding: 0 15px;
+    font-family: 'Source Code Pro';
+    color: #2a274f;
+}
+
+form input {
+    margin: 9px 10px;
 }
 
 /* Mobile */
@@ -60,6 +98,7 @@ h2 {
     h1 {
         font-size: 1.25rem;
     }
+
     h2 {
         font-size: 1.125rem;
     }
