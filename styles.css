@@ -18,7 +18,7 @@ body {
 }
 
 .branco-texto {
-    color: #CECECE;
+    color: #474737;
 }
 
 .roxo-texto {
@@ -26,8 +26,8 @@ body {
 }
 
 h1 {
-    font-size: 3.125rem;
-    font-family: 'Climate Crisis', cursive;
+    font-size: 1.725rem;
+    font-family: 'Ultra', cursive;
 }
 
 h2 {
@@ -94,12 +94,11 @@ form input {
 }
 
 /* Mobile */
-@media (max-width:390px) {
+  @media (max-width: 390px) {
     h1 {
-        font-size: 1.25rem;
-    }
-
+    font-size: 1.625rem;
+  }
+}
     h2 {
         font-size: 1.125rem;
     }
-}
